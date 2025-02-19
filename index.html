@@ -12,7 +12,7 @@
             box-sizing: border-box;
         }
         .container{
-            width: 100vw;
+            min-width: 100vw;
             height: 100vh;
             background-color: #F3904F;
             background-image: url(https://thumbs.dreamstime.com/b/image-shows-large-football-stadium-filled-white-seats-sun-shining-brightly-overhead-image-shows-large-356832920.jpg);
@@ -20,6 +20,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            overflow: scroll;
         }
         .main{
             display: grid;
@@ -68,6 +69,7 @@
         .bo5{
             display: flex;
             flex-direction: column;
+            /* justify-content: space-between; */
             color: white;
             margin: 20px;
         }
@@ -185,7 +187,7 @@ background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, F
                 <h5>Hundreds</h5>
             </div>
             <div class="box5 b4">
-                <img src="virat.avif" height="90%" >
+                <img src="virat.avif" height="100%" >
                 <div class="bo5">
                     <div class="bb4">Orange Cap</div>
                     <h2>Virat Kohli</h2>
@@ -208,7 +210,7 @@ background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, F
                 </div>
             </div>
             <div class="box5 b5">
-                <img src="pat.avif" height="90%">
+                <img src="pat.avif" height="100%">
                 <div class="bo5">
                     <div class="bb5">FairPlay</div>
                     <h2>Sunrisers Hyderabad</h2>
